@@ -1,4 +1,4 @@
-Flis<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -102,6 +102,23 @@ Flis<!DOCTYPE html>
         .whatsapp-float img:hover {
             transform: scale(1.1);
         }
+        
+        /* Estilos para la valoración */
+        .rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        .stars {
+            color: #FFD700;
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .rating-text {
+            font-size: 16px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -123,14 +140,14 @@ Flis<!DOCTYPE html>
         <div class="plan">
             <h3>Netflix (15 Días)</h3>
             <p>Disfruta de Netflix durante 15 días a un precio increíble.</p>
-            <p><strong>Precio: $9.500</strong></p>
+            <p><strong>Precio: $9.000</strong></p>
             <a href="https://api.whatsapp.com/send/?phone=573012813278&text=Hola+MenFlis%2C+estoy+interesado+en+el+plan+de+Netflix+de+15+d%C3%ADas." class="btn-whatsapp">COMPRAR AHORA</a>
         </div>
         <div class="plan">
             <h3>Disney+ (30 Días)</h3>
             <p>Accede a todo el contenido de Disney+ por un mes completo.</p>
             <p><strong>Precio: $12.000</strong></p>
-            <a href="https://api.whatsapp.com/send/?phone=573012813278&text=MenFlis+Express%2C+estoy+interesado+en+el+plan+de+Disney%2B+de+30+d%C3%ADas." class="btn-whatsapp">COMPRAR AHORA</a>
+            <a href="https://api.whatsapp.com/send/?phone=573012813278&text=Hola+MenFlis%2C+estoy+interesado+en+el+plan+de+Disney%2B+de+30+d%C3%ADas." class="btn-whatsapp">COMPRAR AHORA</a>
         </div>
         <div class="plan">
             <h3>Spotify Premium (30 Días)</h3>
@@ -146,7 +163,7 @@ Flis<!DOCTYPE html>
         <div class="plan">
             <h3>Netflix</h3>
             <p>Planes desde 15 días hasta 30 días.</p>
-            <p><strong>Precio: Desde $8.500</strong></p>
+            <p><strong>Precio: Desde $9.000</strong></p>
         </div>
         <div class="plan">
             <h3>Disney+</h3>
@@ -168,6 +185,10 @@ Flis<!DOCTYPE html>
     <!-- Sección de Opiniones -->
     <section id="opiniones" class="opiniones container">
         <h2>Lo que dicen nuestros clientes</h2>
+        <div class="rating">
+            <div class="stars">★★★★☆</div>
+            <div class="rating-text">4.6 de 5 (223 valoraciones)</div>
+        </div>
         <div class="plan">
             <h3>Laura Gómez</h3>
             <p>"Excelente servicio, muy rápido y eficiente. Recomendado 100%."</p>
@@ -180,38 +201,14 @@ Flis<!DOCTYPE html>
             <h3>Ana López</h3>
             <p>"Los precios son increíbles y el servicio es impecable."</p>
         </div>
-        <div class="plan">
-            <h3>Sebastián Sepulveda</h3>
-            <p>"Me entregaron mi cuenta super rápido"</p>
-        </div>
-        <div class="plan">
-            <h3>Ana Gacha</h3>
-            <p>"Aunque tuve un problema con una cuenta de Netflix lo resolvieron muy rápido."</p>
-        </div>
     </section>
 
     <!-- Sección de Preguntas Frecuentes -->
     <section id="faq" class="faq container">
-        <h2>Preguntas Frecuentes</h2>
+        <h2>Preguntas</h2>
         <div class="plan">
-            <h3>¿Cómo comprar?</h3>
-            <p>Selecciona el servicio que deseas, haz clic en 'Comprar ahora' y te redirigiremos a WhatsApp para completar tu compra.</p>
-        </div>
-        <div class="plan">
-            <h3>¿Qué medios de pago aceptan?</h3>
-            <p>Aceptamos Nequi, Daviplata, Bancolombia, Transfiya, PSE, entre muchos otros más.</p>
-        </div>
-        <div class="plan">
-            <h3>¿Cómo ingreso a mi cuenta?</h3>
-            <p>Una vez realizado el pago, te enviaremos las credenciales de acceso por WhatsApp.</p>
-        </div>
-        <div class="plan">
-            <h3>¿Qué garantía tienen?</h3>
-            <p>Ofrecemos garantía durante todo el tiempo que dure tu plan. Si tienes algún problema, contáctanos.</p>
-        </div>
-        <div class="plan">
-            <h3>¿Más preguntas?</h3>
-            <p>Escríbenos a nuestro WhatsApp: <a href="https://api.whatsapp.com/send/?phone=573012813278">+57 301 281 3278</a>. Estamos disponibles de 7:00 a.m. a 9:00 p.m.</p>
+            <h3>¿Tienes preguntas?</h3>
+            <p>Escríbenos a nuestro WhatsApp: <a href="https://api.whatsapp.com/send/?phone=573012813278">+57 301 281 3278</a>. Estamos disponibles de 11:00 a.m. a 9:00 p.m.</p>
         </div>
     </section>
 
@@ -219,10 +216,10 @@ Flis<!DOCTYPE html>
     <footer id="contacto">
         <p>Contacto: <a href="https://api.whatsapp.com/send/?phone=573012813278">+57 301 281 3278</a></p>
         <p>Correo: info@menflis.com</p>
-        <p>Horario de atención: Todos los dias, 7:00 a.m. - 9:00 p.m.</p>
+        <p>Horario de atención: Lunes a Domingo, 11:00 a.m. - 9:00 p.m.</p>
         <p>Síguenos en: 
-            <a href="https://facebook.com/MenFlis">Facebook</a> | 
-            <a href="https://instagram.com/MenFlis">Instagram</a>
+            <a href="https://facebook.com/menflis">Facebook</a> | 
+            <a href="https://instagram.com/menflis">Instagram</a>
         </p>
     </footer>
 
